@@ -2,8 +2,10 @@
   "build": {
     "cmd": "npm run build"
   },
-  "deploy": {
-    "cmd": "node server.js",
+  "runtime": {
     "paths": ["dist"]
+  },
+  "deploy": {
+    "cmd": "node server.js"
   }
 }
