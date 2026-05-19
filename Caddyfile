@@ -1,4 +1,4 @@
-0.0.0.0:{$PORT:8080}
+http://0.0.0.0:{$PORT:8080}
 
 root * /app/dist
 
