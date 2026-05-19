@@ -1,0 +1,9 @@
+{
+  "build": {
+    "cmd": "npm run build"
+  },
+  "deploy": {
+    "cmd": "node server.js",
+    "paths": ["dist"]
+  }
+}
